@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
-
+import { ToastAlerta } from '../../utils/ToastAlerta';
 import { AuthContext } from "../../contexts/AuthContext"
 
 function Perfil() {
